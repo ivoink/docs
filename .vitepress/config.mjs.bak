@@ -1,8 +1,7 @@
 import { defineConfig } from "vitepress";
-import { withI18n } from "vitepress-i18n";
 
 // https://vitepress.dev/reference/site-config
-const vitePressOptions = {
+export default defineConfig({
     srcDir: "docs",
     publicDir: ".vitepress/public",
     head: [
@@ -75,16 +74,12 @@ const vitePressOptions = {
         ],
 
         sidebar: [
-            // {
-            //     text: "Examples",
-            //     items: [
-            //         { text: "Markdown Examples", link: "/markdown-examples" },
-            //         { text: "Runtime API Examples", link: "/api-examples" },
-            //     ],
-            // },
             {
-                text: "关于",
-                items: [{ text: "关于站点", link: "/about" }],
+                text: "Examples",
+                items: [
+                    { text: "Markdown Examples", link: "/markdown-examples" },
+                    { text: "Runtime API Examples", link: "/api-examples" },
+                ],
             },
             {
                 text: "Linux",
@@ -97,10 +92,4 @@ const vitePressOptions = {
         //     { icon: "github", link: "https://github.com/vuejs/vitepress" },
         // ],
     },
-};
-
-const vitePressI18nOptions = {
-    locales: ["zhHans"],
-};
-
-export default defineConfig(withI18n(vitePressOptions, vitePressI18nOptions));
+});
