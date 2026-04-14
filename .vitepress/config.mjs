@@ -89,7 +89,13 @@ const vitePressOptions = {
             {
                 text: "Linux",
                 base: "/linux-system/",
-                items: [{ text: "Overview", link: "/" }],
+                items: [
+                    { text: "Overview", link: "/" },
+                    {
+                        text: "01 - Linux 安装与远程登录",
+                        link: "/01-linux-installation-and-remote-login",
+                    },
+                ],
             },
         ],
 
