@@ -137,6 +137,8 @@ https://mirrors.ustc.edu.cn/ubuntu/
 
 #### 软件及使用
 
+将Linux作为服务器，我们可以使用一些软件工具进行连接管理
+
 ##### 软件
 
 尽管有`Xshell`这些工具，但是我还是推荐使用`MobaXtrem`，他的SFTP是一个非常好用的文件管理工具
