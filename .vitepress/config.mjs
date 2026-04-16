@@ -95,6 +95,10 @@ const vitePressOptions = {
                         text: "01 - Linux 安装与远程登录",
                         link: "/01-linux-installation-and-remote-login",
                     },
+                    {
+                        text: "02 - 软件与软件源",
+                        link: "/02-software-and-software-sources",
+                    },
                 ],
             },
         ],
