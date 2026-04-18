@@ -99,6 +99,10 @@ const vitePressOptions = {
                         text: "02 - 软件与软件源",
                         link: "/02-software-and-software-sources",
                     },
+                    {
+                        text: "03 - 用户类型和用户权限",
+                        link: "/03-user-types-and-user-permissions",
+                    },
                 ],
             },
         ],
