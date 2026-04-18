@@ -12,7 +12,7 @@ sudo apt install vim
 apt install vim
 ```
 
-输入尝试以下，则返回：
+输入尝试一下，则返回：
 
 ```bash
 E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
@@ -240,4 +240,3 @@ cat /usr/local/bin/test.txt
 ```text
 Hello World!
 ```
-
