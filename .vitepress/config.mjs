@@ -103,6 +103,10 @@ const vitePressOptions = {
                         text: "03 - 用户类型和用户权限",
                         link: "/03-user-types-and-user-permissions",
                     },
+                    {
+                        text: "04 - 文件编辑与操作",
+                        link: "04-file-editing-and-operation",
+                    },
                 ],
             },
         ],
