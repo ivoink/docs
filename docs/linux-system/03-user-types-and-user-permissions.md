@@ -55,6 +55,8 @@ test is not in the sudoers file.
 
 简单翻译一下，意思就是`test`不在`sudoers`文件内
 
+---
+
 ### `sudoers`配置文件
 
 切回自己安装时候创建的用户，我们可以使用`cat`去看一下位于`/etc/`目录下的`sudoers`文件
@@ -146,6 +148,8 @@ sudo apt update && sudo apt upgrade -y
 
 **现在已经可以正常更新了**
 
+---
+
 ### `sudo`的安全使用
 
 一般服务中是将一个服务分配给一个用户，所以我们需要在`sudoers`文件中去新建规则，这就是经常说的**最小权限原则**。比如我这个`test`用户是专门用户控制系统的，那我需要给这个用户配置只允许重启和关机的权限，只需要在文件内添加以下语句：
@@ -189,6 +193,8 @@ echo "Hello World!" >> /usr/local/bin/test.txt
 ```bash
 chmod 777 file
 ```
+
+---
 
 #### 数字
 

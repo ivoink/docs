@@ -107,6 +107,10 @@ const vitePressOptions = {
                         text: "04 - 文件编辑与操作",
                         link: "04-file-editing-and-operation",
                     },
+                    {
+                        text: "05 - 系统与服务",
+                        link: "05-system-and-services",
+                    },
                 ],
             },
         ],
