@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Inkwell Ops"
-  text: "Linux & Infrastructure"
-  tagline: "从 Linux 基础命令到网络设备，打造完整的自托管部署指南"
+  name: "Ink-Explorer-Well"
+  text: "Notes of Exploration"
+  tagline: "探索成文，点墨记录"
   actions:
     # - theme: brand
     #   text: Markdown Examples

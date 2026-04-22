@@ -65,8 +65,8 @@ const vitePressOptions = {
             { name: "msapplication-config", content: "/browserconfig.xml" },
         ],
     ],
-    title: "Inkwell Ops",
-    description: "Linux & Infrastructure",
+    title: "Ink-Explorer-Well",
+    description: "Notes of Exploration",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
@@ -88,6 +88,7 @@ const vitePressOptions = {
             },
             {
                 text: "Linux",
+                collapsed: true,
                 base: "/linux-system/",
                 items: [
                     { text: "Overview", link: "/" },
@@ -110,6 +111,10 @@ const vitePressOptions = {
                     {
                         text: "05 - 系统与服务",
                         link: "05-system-and-services",
+                    },
+                    {
+                        text: "06 - Linux系统配置与安全",
+                        link: "06-configuration-and-security",
                     },
                 ],
             },
