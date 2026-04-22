@@ -1,11 +1,11 @@
-# Inkwell Ops
+# Ink-Explorer-Well
 
 > 打造一个能让真心喜欢动手，自己学习与部署服务的小伙伴在我的基础上少走许多的弯路，快速入门
 
-**Inkwell Ops** ，一个从 Linux 基础命令到网络设备，打造完整的自托管部署指南
+**Ink-Explorer-Well** ，一个经过摸索的文档知识库
 
 
-## 内容方向
+## 探索方向
 
 ### Linux
 
