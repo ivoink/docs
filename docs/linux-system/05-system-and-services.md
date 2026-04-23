@@ -122,6 +122,14 @@ ExecStart=/bin/bash /home/teach/test.sh
 WantedBy=multi-user.target
 ```
 
+---
+
+让服务文件生效需要开启自启动
+
+```bash
+sudo systemctl enable test
+```
+
 ## 效果查看
 
 现在重启查看效果
@@ -130,4 +138,106 @@ WantedBy=multi-user.target
 cat $HOME/test.txt
 ```
 
-最后应该会多出一行输出
+最后应该会多出一行输出你使用脚本输入的内容
+
+## 服务的管理与排错
+
+所有的服务不是每一个都可以这么顺利的运行的，所以我们需要学会查看状态，对服务进行手动的控制，这样也有助于错误的排除
+
+---
+
+### 服务状态查看
+
+之前我们允许服务自启动的时候使用的命令结构不变，只需要记住状态的关键字`status`，也就需要将命令改成这样
+
+```bash
+sudo systemctl status test
+```
+
+这个时候Linux会像我们返回如下的内容
+
+```bash
+○ test.service - auto_start
+     Loaded: loaded (/etc/systemd/system/test.service; enabled; preset: enabled)
+     Active: inactive (dead) since Thu 2026-04-23 02:47:41 UTC; 56s ago
+    Process: 680 ExecStart=/bin/bash /home/teach/test.sh (code=exited, status=0/SUCCESS)
+   Main PID: 680 (code=exited, status=0/SUCCESS)
+        CPU: 9ms
+
+Apr 23 02:47:41 teach-server systemd[1]: Starting test.service - auto_start...
+Apr 23 02:47:41 teach-server systemd[1]: test.service: Deactivated successfully.
+Apr 23 02:47:41 teach-server systemd[1]: Finished test.service - auto_start.
+```
+
+根据这里的排版格式，`Loaded`，`Active`，`Process`以及`Main PID`等关键字非常明显
+
+> - **`Loaded`**：启动服务文件位置，后面的`enabled`表示的是自启动状态
+> - **`Active`**：启动状态，`inactive (dead)`则是这个服务目前的状态，后面跟随`since Thu 2026-04-23 02:47:41 UTC; 56s ago`是上次启动的时间，因为我这个是刚启动就直接查看状态，所以是`56s ago`
+> - **`Process`**：进程信息，`680`是Process(进程) ID，简称PID，`ExecStart=/bin/bash /home/teach/test.sh`是执行程序的参数，`(code=exited, status=0/SUCCESS)`代表已经退出，`0/SUCCESS`是执行成功
+> - **`Main PID`**：主要的进程ID进程号，`CPU`参数主要表示占用CPU的时长
+
+---
+
+### 服务的停止与启动
+
+**服务开启**
+
+```bash
+sudo systemctl start 服务名称
+```
+
+**服务关闭**
+
+```bash
+sudo systemctl stop 服务名称
+```
+
+**重启服务**
+
+```bash
+sudo systemctl restart 服务名称
+```
+
+## 服务删除
+
+删除服务流程一定是
+
+```text
+停止服务 -> 关闭服务自启 -> 删除service文件 -> 重载所有service文件
+```
+
+---
+
+### 停止`test`服务
+
+```bash
+sudo systemctl stop test
+```
+
+---
+
+### 关闭`test`服务自启动
+
+```bash
+sudo systemctl disable test
+```
+
+---
+
+### 删除`.service`文件
+
+```bash
+# 进入存放service文件目录
+cd /etc/systemd/system
+
+# 删除自启动service文件
+rm -f test.service
+```
+
+---
+
+###  重载service文件
+
+```bash
+sudo systemctl daemon-reload
+```
