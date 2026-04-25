@@ -120,6 +120,10 @@ const vitePressOptions = {
                         text: "07 - 网络配置与管理",
                         link: "07-network-configuration-and-management",
                     },
+                    {
+                        text: "08 - 进程管理与日志排查",
+                        link: "08-process-management-and-log-troubleshooting",
+                    },
                 ],
             },
         ],
