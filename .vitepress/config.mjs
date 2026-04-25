@@ -116,6 +116,10 @@ const vitePressOptions = {
                         text: "06 - Linux系统配置与安全",
                         link: "06-configuration-and-security",
                     },
+                    {
+                        text: "07 - 网络配置与管理",
+                        link: "07-network-configuration-and-management",
+                    },
                 ],
             },
         ],
