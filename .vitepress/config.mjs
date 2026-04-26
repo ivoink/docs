@@ -124,6 +124,10 @@ const vitePressOptions = {
                         text: "08 - 进程管理与日志排查",
                         link: "08-process-management-and-log-troubleshooting",
                     },
+                    {
+                        text: "09 - 磁盘与存储管理",
+                        link: "09-disk-and-storage-management",
+                    },
                 ],
             },
         ],
