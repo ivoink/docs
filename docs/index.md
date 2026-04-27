@@ -23,6 +23,8 @@ hero:
 features:
   - title: Linux 系统基础
     details: Linux 安装、基础命令、系统管理、网络配置及常见问题
+  - title: 搭建自己的Linux开发环境
+    details: 使用 Windows Manager 搭建属于自己的Linux开发环境
   - title: 家庭网络设备部署
     details: 在家里部署私人NAS设备，PVE虚拟机平台等设备
   - title: 公网访问方案
