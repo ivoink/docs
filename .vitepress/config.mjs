@@ -173,5 +173,6 @@ export default defineConfig({
         },
         editLink: false,
         lastUpdated: false,
+        ignoreDeadLinks: true,
     },
 });
