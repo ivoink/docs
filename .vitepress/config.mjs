@@ -1,8 +1,6 @@
 import { defineConfig } from "vitepress";
-import { withI18n } from "vitepress-i18n";
 
-// https://vitepress.dev/reference/site-config
-const vitePressOptions = {
+export default defineConfig({
     srcDir: "docs",
     publicDir: ".vitepress/public",
     head: [
@@ -67,25 +65,18 @@ const vitePressOptions = {
     ],
     title: "Ink-Explorer-Well",
     description: "Notes of Exploration",
+    locales: {
+        root: {
+            label: "简体中文",
+            lang: "zh-Hans",
+        },
+    },
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "Home", link: "/" },
             { text: "Blog", link: "https://ivoink.qzz.io", target: "_blank" },
         ],
-
         sidebar: [
-            // {
-            //     text: "Examples",
-            //     items: [
-            //         { text: "Markdown Examples", link: "/markdown-examples" },
-            //         { text: "Runtime API Examples", link: "/api-examples" },
-            //     ],
-            // },
-            {
-                text: "关于",
-                items: [{ text: "关于站点", link: "/about" }],
-            },
             {
                 text: "Linux",
                 collapsed: true,
@@ -106,40 +97,78 @@ const vitePressOptions = {
                     },
                     {
                         text: "04 - 文件编辑与操作",
-                        link: "04-file-editing-and-operation",
+                        link: "/04-file-editing-and-operation",
                     },
                     {
                         text: "05 - 系统与服务",
-                        link: "05-system-and-services",
+                        link: "/05-system-and-services",
                     },
                     {
                         text: "06 - Linux系统配置与安全",
-                        link: "06-configuration-and-security",
+                        link: "/06-configuration-and-security",
                     },
                     {
                         text: "07 - 网络配置与管理",
-                        link: "07-network-configuration-and-management",
+                        link: "/07-network-configuration-and-management",
                     },
                     {
                         text: "08 - 进程管理与日志排查",
-                        link: "08-process-management-and-log-troubleshooting",
+                        link: "/08-process-management-and-log-troubleshooting",
                     },
                     {
                         text: "09 - 磁盘与存储管理",
-                        link: "09-disk-and-storage-management",
+                        link: "/09-disk-and-storage-management",
                     },
                 ],
             },
+
+            {
+                text: "搭建自己的Linux开发环境",
+                collapsed: true,
+                base: "/build-linux-development-enviroment/",
+                items: [{ text: "Overview", link: "/" }],
+            },
         ],
-
-        // socialLinks: [
-        //     { icon: "github", link: "https://github.com/vuejs/vitepress" },
-        // ],
+        search: {
+            provider: "local",
+            options: {
+                translations: {
+                    button: {
+                        buttonText: "搜索文档",
+                        buttonAriaLabel: "搜索文档",
+                    },
+                    modal: {
+                        displayDetails: "显示详情",
+                        resetButtonTitle: "清除查询条件",
+                        backButtonTitle: "返回",
+                        noResultsText: "无法找到相关结果",
+                        footer: {
+                            selectText: "选择",
+                            selectKeyAriaLabel: "输入",
+                            navigateText: "切换",
+                            navigateUpKeyAriaLabel: "上",
+                            navigateDownKeyAriaLabel: "下",
+                            closeText: "关闭",
+                            closeKeyAriaLabel: "esc",
+                        },
+                    },
+                },
+            },
+        },
+        outline: {
+            label: "页面导航",
+        },
+        lastUpdated: {
+            text: "最后更新于",
+        },
+        editLink: {
+            text: "在 GitHub 上编辑此页面",
+        },
+        docFooter: {
+            prev: "上一页",
+            next: "下一页",
+        },
+        editLink: false,
+        lastUpdated: false,
     },
-};
-
-const vitePressI18nOptions = {
-    locales: ["zhHans"],
-};
-
-export default defineConfig(withI18n(vitePressOptions, vitePressI18nOptions));
+});

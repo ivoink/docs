@@ -14,11 +14,11 @@ hero:
     #   text: API Examples
     #   link: /api-examples
     - theme: brand
-      text: 关于
-      link: /about
-    - theme: alt
-      text: Linux
-      link: /linux-system/
+      text: 总览
+      link: /starter
+    # - theme: alt
+    #   text: Linux 系统基础
+    #   link: /linux-system/
 
 features:
   - title: Linux 系统基础
