@@ -1,0 +1,34 @@
+---
+title: Notes with Ink
+template: splash # 删除或注释掉此行以在此页显示站点的侧边栏。
+hero:
+  tagline: 探索成文，点墨记录
+  image:
+    file: ../../assets/logo.webp
+  actions:
+    - text: 开始
+      link: /starter/
+      icon: right-arrow
+    - text: 前往博客
+      link: https://ivoinkwell.xyz
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+<CardGrid stagger>
+	<Card title="Linux 系统基础" icon="linux">
+		Linux 安装、基础命令、系统管理、网络配置及常见问题
+	</Card>
+	<Card title="搭建自己的Linux开发环境" icon="laptop">
+		使用 Windows Manager 搭建属于自己的Linux开发环境
+	</Card>
+	<Card title="网络设备部署与公网访问" icon="server">
+		家庭内网设备部署于公网访问解决方案
+	</Card>
+	<Card title="网络安全与数据安全参赛笔记" icon="padlock">
+		网络安全相关比赛刷题笔记
+	</Card>
+</CardGrid>
