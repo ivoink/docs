@@ -10,7 +10,7 @@ title: '网络配置与管理'
 
 Debian安装时的配置比Ubuntu Server少很多，只有一个方面需要注意，也就是软件选择上，按照下图进行选择即可
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/linux-system/07-network-configuration-and-management/07-network-configuration-and-management.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/linux-system/07-network-configuration-and-management/07-network-configuration-and-management.webp)
 
 :::details
 [安装 Debian 13](/build-linux-development-enviroment/01-install-debian-13/)

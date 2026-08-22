@@ -6,7 +6,7 @@ title: 'frp - 一个无需公网IP的内网穿透方式'
 
 下面是 `frp` 协议的原理示意图：
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/04-frp-a-method-for-intranet-penetration-that-does-not-require-a-public-ip/04-frp-a-method-for-intranet-penetration-that-does-not-require-a-public-ip.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/04-frp-a-method-for-intranet-penetration-that-does-not-require-a-public-ip/04-frp-a-method-for-intranet-penetration-that-does-not-require-a-public-ip.webp)
 
 ## `frpc` 配置
 

@@ -339,7 +339,7 @@ systemctl restart sshd
 
 在MobaXterm加入自己的私钥
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/linux-system/06-configuration-and-security/06-configuration-and-security.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/linux-system/06-configuration-and-security/06-configuration-and-security.webp)
 
 **尝试连接，输入用户名后即可直接连接上自己的机器**
 

@@ -27,7 +27,7 @@ title: '网络设备部署与公网访问'
 
 公网访问的方案有很多种，如何选择需要根据自己家庭的网络状况进行选择，如果家里有一个专门的 IPv4 ，则所有的方案可以根据我的方案进行照搬，还可以看自己是否有 IPv6 ，如果和下图中一样是 `fe80` 开头则是没有，如果是 `240x` 开头则说明有，根据下表进行自行判断，如果两个地址都没有，可以去联系运营商打开 IPv6 。
 
-![alt text](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/index/image.webp)
+![alt text](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/index/image.webp)
 
 | 运营商 | 常见IPv6地址前缀 |
 | :--- | :--- |

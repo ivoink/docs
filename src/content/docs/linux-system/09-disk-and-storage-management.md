@@ -8,7 +8,7 @@ title: '磁盘与存储管理'
 
 VMware的虚拟机软件在插入U盘的时候会弹出弹窗提示是否直通给虚拟机，但是像是PVE和ESXi这样的平台需要手动的加上**USB直通**
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/linux-system/09-disk-and-storage-management/09-disk-and-storage-management.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/linux-system/09-disk-and-storage-management/09-disk-and-storage-management.webp)
 
 ## 检查磁盘
 
@@ -267,4 +267,4 @@ sudo umount /dev/sdb1
 
 打开资源管理器和U盘文件中的内容Windows可以正常访问
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/linux-system/09-disk-and-storage-management/09-disk-and-storage-management-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/linux-system/09-disk-and-storage-management/09-disk-and-storage-management-2.webp)

@@ -21,14 +21,14 @@ title: '应用软件'
 sudo apt install thunar
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation.webp)
 
 安装之后则可以在 `dmenu` 中找到这个文件管理器
 
 
 #### 界面
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-1.webp)
 
 这个文件管理器最好的一点就是左侧栏，里面可以直接对 U盘 等设备进行直接挂载，图形化界面更容易理解界面交互
 
@@ -46,18 +46,18 @@ sudo apt install thunar
 sudo apt install ranger
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-2.webp)
 
 安装后 `dmenu` 中同样可以找到，但是我更喜欢直接在终端输入 `ranger` 进行打开
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-3.webp)
 
 
 #### 配置
 
 进入配置的文件夹，`ranger` 的却没有文件，就像这样
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-4.webp)
 
 输入这个命令，`ranger` 会把自己的配置文件复制到用户目录下
 
@@ -65,7 +65,7 @@ sudo apt install ranger
 ranger --copy-config=all
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-5.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-5.webp)
 
 左侧文件夹内文件出现，自行编辑即可 
 
@@ -88,7 +88,7 @@ ranger --copy-config=all
 sudo gparted
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-6.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-6.webp)
 
 发现这样是可以打开的
 
@@ -115,7 +115,7 @@ exec --no-startup-id lxpolkit
 
 ### 效果
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-7.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-7.webp)
 
 已经成功出现提权窗口
 
@@ -134,7 +134,7 @@ sudo apt install fcitx5 fcitx5-chinese-addons
 
 安装后可以在 `dmenu` 菜单中看见
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-8.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-8.webp)
 
 
 ### 配置输入法自启动
@@ -147,18 +147,18 @@ exec --no-startup-id fcitx
 
 重启之后在面板上即可看到一个企鹅图标，或者和我这样的`en`字母
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-9.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-9.webp)
 
 
 ### 配置中文输入法
 
 打开配置界面，在搜索框中输入 `pinyin` 进行检索并加入输入法
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-10.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-10.webp)
 
 终端中尝试输入，确保没有问题
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-11.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-11.webp)
 
 
 ### 输入法美化
@@ -173,7 +173,7 @@ exec --no-startup-id fcitx
 
 **[星火商店官网](https://www.spark-app.store/download)**
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-12.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/05-application-software-recommendation/05-application-software-recommendation-12.webp)
 
 :::note[重逢]
 依稀记得我最后一次使用这个应用商店已经是两年之前了，这个商店还是一个完全靠爱发电的模式，现在已经开始出现商业版本，官网更加精美了。之前一直看不起国内对于 Linux 操作系统的魔改， DDE 套着 GTK 和 QT 两个图形框架下窗口还使用 KDE 的 KWin，导致整个系统异常的卡顿，但是看着软件发展越来越好，也忠心祝愿国内 Linux 生态能够发展起来

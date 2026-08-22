@@ -10,7 +10,7 @@ KVM 虚拟机，可以简单的理解为运行在 PVE 上面的 VMware 虚拟机
 
 打开 **[FnOS官网下载页面](https://fnnas.com/download)**，下载 ISO 系统磁盘镜像，新建一个4G运行内存的虚拟机，开机后正常安装即可
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers.webp)
 
 
 ### 挂载硬盘
@@ -36,32 +36,32 @@ qm set 200 -scsi2 /dev/disk/by-id/ata-ST3160815AS_6RA37M17
 
 根据下图的提示，依次点击
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-1.webp)
 
 选择一个适合作为开发机的模板即可，一般开发使用 `Debian Stable` 即可，如果有红帽的开发需求，也可以选择 `Rocky Linux` 。
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-2.webp)
 
 
 ### 创建 LXC 容器
 
 按照图片点击左上角的 `Create CT`，创建新的 LXC 容器
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-3.webp)
 
 资源池如果不需要分配给用户可以选择不选择
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-4.webp)
 
 在这个地方便可以选择 LXC 容器的系统
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-5.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-5.webp)
 
 后面的一次根据自己的需要进行选择并创建这个 LXC 容器。
 
 **注：下图选择内存的地方一定要选择 swap，而不要将其设置为 `0`**
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-6.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/02-kvm-virtual-machines-and-lxc-containers/02-kvm-virtual-machines-and-lxc-containers-6.webp)
 
 
 ### 配置 LXC 容器 TUN

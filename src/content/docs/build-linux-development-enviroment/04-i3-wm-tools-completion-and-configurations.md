@@ -13,7 +13,7 @@ title: 'i3 工具补全与配置'
 
 我们可以先看看  `i3` 自带的样式
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations.webp)
 
 自带的 `dmenu` 样式中只有简单的文字与一个黑框，效率高，轻量，但是视觉上十分不友好，所以，我们可以新安装一个全新的 `dmenu` ，也就是 `rofi`
 
@@ -26,7 +26,7 @@ Debian通常是自带这个软件包的，所以我们在终端直接安装就�
 sudo apt install rofi
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-1.webp)
 
 
 ### `rofi` 的相关配置
@@ -56,7 +56,7 @@ bindsym $mod+d exec--no-startup-id rofi # [!code ++]
 
 现在我们尝试一下 `$mod` + `d` 快捷键
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-2.webp)
 
 出现这样的一个提示，也就是我们需要书写成提示这样的格式，我们需要的是 `dmenu` 的样式，就选择 `drun`
 
@@ -65,7 +65,7 @@ bindsym $mod+d exec--no-startup-id rofi # [!code --]
 bindsym $mod+d exec--no-startup-id rofi -show drun # [!code ++]
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-3.webp)
 
 现在成功出现了
 
@@ -77,7 +77,7 @@ bindsym $mod+d exec--no-startup-id rofi -show drun # [!code --]
 bindsym $mod+d exec--no-startup-id rofi -show drun -show-icon # [!code ++]
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-4.webp)
 
 这样就完成了，简洁直观，想要更换主题可以回车选择 `Rofi Theme Selector` 即可
 
@@ -94,7 +94,7 @@ bindsym $mod+d exec--no-startup-id rofi -show drun -show-icon # [!code ++]
 sudo apt install alacritty
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-5.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-5.webp)
 
 我这里安装过，就不会再安装
 
@@ -116,7 +116,7 @@ bindsym $mod+Return exec i3-sensible-termina # [!code --]
 bindsym $mod+Return exec alacritty # [!code ++]
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-6.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-6.webp)
 
 
 `alacritty` 默认的主题如果不怎么满意也可以更换自己喜欢的，这个是我之前更换的，文件位置在 **`$HOME/.config/alacritty/alacritty.yml`**
@@ -260,7 +260,7 @@ key_bindings:
 sudo apt install picom
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-7.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-7.webp)
 
 ### 配置文件
 
@@ -659,5 +659,5 @@ wintypes:
 
 重启后查看效果
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-8.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/04-i3-wm-completion-tools-and-configurations/04-i3-wm-completion-tools-and-configurations-8.webp)
 

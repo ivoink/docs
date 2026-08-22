@@ -8,7 +8,7 @@ title: '6.15 数据安全刷题笔记'
 
 数据包中包含明文 `flag` 直接拿取即可
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note.webp)
 
 ## 流量分析2
 
@@ -22,7 +22,7 @@ title: '6.15 数据安全刷题笔记'
 
 按照第一个题目中的方法去尝试检索 `flag`
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-1.webp)
 
 并未发现任何明文 `flag` 文字出现
 
@@ -38,27 +38,27 @@ http.request
 http.request.method == "POST"
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-2.webp)
 
 其中发现有获取 `config.php` 的异常请求，于是对其中进行的分析
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-3.webp)
 
 这样类似的请求一般是用于登录，其中不会包含 `flag`
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-4.webp)
 
 出现文件痕迹，进行追踪流
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-5.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-5.webp)
 
 并未出现 `flag` 痕迹，继续查看
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-7.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-7.webp)
 
 再次出现文件痕迹
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-8.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/cybersecurity-and-data-security/data-security-6-15-note/data-security-6-15-note-8.webp)
 
 追踪流后发现 `flag` 痕迹
 

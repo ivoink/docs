@@ -68,7 +68,7 @@ gaps outer 6
 
 效果如下：
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/03-configure-your-i3-wm/03-configure-your-i3-wm.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/03-configure-your-i3-wm/03-configure-your-i3-wm.webp)
 
 
 ### `i3-status`
@@ -195,4 +195,4 @@ bar {
 
 ## 配置后的最终效果
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/03-configure-your-i3-wm/03-configure-your-i3-wm-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/03-configure-your-i3-wm/03-configure-your-i3-wm-1.webp)

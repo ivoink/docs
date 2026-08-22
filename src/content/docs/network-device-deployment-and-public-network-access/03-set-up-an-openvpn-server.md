@@ -10,7 +10,7 @@ title: '搭建 OpenVPN 服务器'
 
 **部署上面 [Pigteacher的飞书文档](https://t0urjzduqym.feishu.cn/docx/IG75dN7esooDzIxrJnucCXPCnTe) 写的比我更好**
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server.webp)
 
 所以我这里安装的就是基础的 Debian 13 系统，相较于传统的安装方式，我会推荐一种更快速的安装方式 —— **[openvpn-install 脚本](https://github.com/angristan/openvpn-install)**
 
@@ -18,15 +18,15 @@ title: '搭建 OpenVPN 服务器'
 
 **使用声明：文中使用的脚本是 2025.12.27 日下载的，截止 2026.07.23 脚本更新位于3个月前，可能相较旧版有不同程度的修复，如遇到相同问题，文中步骤可以参考**
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-1.webp)
 
 首先条件是我们安装的系统要满足这样的条件
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-2.webp)
 
 **实现方案为`IPv4 + DDNS`，脚本中填写的端口需要主路由做转发，`DDNS` 可以选择在飞牛上实现，也可以尝试自家主路由固件是否支持**
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-3.webp)
 
 脚本部署完成之后如果遇到以下问题，可以使用下面的方法进行解决，部署完成，测试没有问题之后建议不要轻易重启，除已经确定增加自启动服务。
 
@@ -46,7 +46,7 @@ ExecStart=$iptables_path -w 5 -I INPUT -p tcp --dport 22 -j ACCEPT
 
 使用外网可以正常拨号进入家庭内网即可。
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/03-set-up-an-openvpn-server-4.webp)
 
 ## 修改配置文件
 

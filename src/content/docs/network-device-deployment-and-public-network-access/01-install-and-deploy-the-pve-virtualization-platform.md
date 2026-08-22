@@ -95,55 +95,55 @@ sed -i.bak 's|http://download.proxmox.com|https://mirrors.ustc.edu.cn/proxmox|g'
 
 ### 创建用户
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform.webp)
 
 这里我已经创建了两个用户，分别是 `Ivo` 和 `flashmailbox`。
 
 创建用户的时候，验证方式要如图所选，在登陆界面也要选择相同的认证方式
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-1.webp)
 
 
 ### 用户资源池创建
 
 如图所示创建用户的资源池，资源池名字随意，使用用户名字可维护性应该会更高
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-2.webp)
 
 此时左侧会出现这样的两个标签，这两个标签就是新建的资源池
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-3.webp)
 
 
 ### 资源池赋权
 
 根据提示依次点击
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-4.webp)
 
 在点击 `Add` 之后会出现这样的选择
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-5.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-5.webp)
 
 这里的两种权限，一个是针对用户组，一个是针对单个用户，我们日常使用情况下不可能有两个人需要使用的虚拟机以及权限完全相同的情况，所以直接选择 `User Permission` 即可
 
 选择好用户名字之后，根据截图选择相对应的权限
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-6.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-6.webp)
 
 
 ### 添加虚拟机进入资源池
 
 如图所示，添加虚拟机
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-7.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-7.webp)
 
 添加完成后记住已经添加的虚拟机，退出 `root` 账号，登录用户账户，Realm选择参考截图
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-8.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-8.webp)
 
 查看拥有的虚拟机
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-9.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/01-install-and-deploy-the-pve-virtualization-platform/01-install-and-deploy-the-pve-virtualization-platform-9.webp)
 
 另一个用户也是相同的道理……

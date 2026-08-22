@@ -56,7 +56,7 @@ deb http://mirrors.ustc.edu.cn/debian trixie-updates main contrib non-free non-f
 ```
 :::
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation.webp)
 
 最后更新一下软件源，出现`ustc`字样即为成功
 
@@ -79,9 +79,9 @@ apt install network-manager-gnome i3 lightdm sudo
 ```
 
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-1.webp)
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-2.webp)
 
 按`y`后等待安装完成
 
@@ -93,13 +93,13 @@ apt install network-manager-gnome i3 lightdm sudo
 sudo usermod -aG sudo [username]
 ```
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-3.webp)
 
 ## 重启进入系统
 
 输入`reboot`进行重启，重启后即可进入 `LightDM` 登录管理器，界面如下
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-4.webp)
 
 输入用户名进入系统
 
@@ -107,11 +107,11 @@ sudo usermod -aG sudo [username]
 
 进入桌面后会有一个初始配置环节
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-5.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-5.webp)
 
 这里是是否在用户目录创建`i3-wm`的配置，这样用户的配置和系统不会冲突，按下`Enter`键即可创建用户自己的配置文件
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-6.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/build-linux-development-enviroment/02-basic-components-and-installation/02-basic-components-and-installation-6.webp)
 
 这里需要确认`Mod`按键，让你选择 `Alt` 和 `Win` 两个按键中任意一个作为都可以，我喜欢 `Win`
 

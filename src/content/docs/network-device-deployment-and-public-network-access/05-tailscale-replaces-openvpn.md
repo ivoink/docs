@@ -24,7 +24,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 安装完成之后，根据提示启动并且登录即可在后台看到设备
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn.webp)
 
 ## Tailscale 设置子网路由
 
@@ -43,20 +43,20 @@ tailscale up --advertise-routes=192.168.1.0/24
 
 最后在网页端开启转发
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-1.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-1.webp)
 
 保存之后即可在手机端尝试使用 Tailscale 连接内网NAS
 
 首先加入同一个账号
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-2.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-2.webp)
 
 打开 VPN 连接即可看到所有加入的设备
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-3.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-3.webp)
 
 尝试连接 NAS 设备
 
-![](https://pic.dl.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-4.webp)
+![](https://pic.ivoinkwell.xyz/file/docs/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/05-tailscale-replaces-openvpn-4.webp)
 
 成功连接即可。
