@@ -81,6 +81,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: { name: 'msapplication-config', content: '/browserconfig.xml' },
 				},
+				{ tag: 'script', attrs: { src: '/open-external-links.js', defer: true } },
 			],
 			sidebar: [
 				{
