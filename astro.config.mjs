@@ -122,6 +122,7 @@ export default defineConfig({
 						{ label: '03 - 搭建 OpenVPN 服务器', link: '/network-device-deployment-and-public-network-access/03-set-up-an-openvpn-server/' },
 						{ label: '04 - frp - 一个无需公网 IP 的内网穿透方式', link: '/network-device-deployment-and-public-network-access/04-frp-a-method-for-intranet-penetration-that-does-not-require-a-public-ip/' },
 						{ label: '05 - Tailscale 平替 OpenVPN', link: '/network-device-deployment-and-public-network-access/05-tailscale-replaces-openvpn/' },
+						{ label: '06 - 使用 Cloudflare Warp 与 Zero Trust 搭建团队 VPN', link: '/network-device-deployment-and-public-network-access/06-building-a-team-vpn-using-cloudflare-warp-and-zero-trust/' },	
 					],
 				},
 				{
