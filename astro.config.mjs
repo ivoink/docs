@@ -85,6 +85,32 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
+					label: 'Web 前端学习笔记',
+					collapsed: true,
+					items: [
+						{ label: '总览', link: '/web-frontend/' },
+						{ label: '01 - 掌握盒子模型', link: '/web-frontend/01-html-and-css-basics/' },
+						{ label: '02 - CSS选择器', link: '/web-frontend/02-css-selectors/' },
+						{ label: '03 - 盒子模型与布局', link: '/web-frontend/03-css-box-model-and-layout/' },
+						{ label: '04 - 深入理解盒子模型', link: '/web-frontend/04-css-box-model-deep-dive/' },
+						{ label: '05 - 相对定位', link: '/web-frontend/05-css-relative-positioning/' },
+						{ label: '06 - 绝对定位', link: '/web-frontend/06-css-absolute-positioning/' },
+						{ label: '07 - 固定定位', link: '/web-frontend/07-css-fixed-positioning/' },
+						{ label: '08 - Flex布局', link: '/web-frontend/08-flex-layout/' },
+						{ label: '09 - Grid布局', link: '/web-frontend/09-grid-layout/' },
+						{ label: '10 - 多列布局', link: '/web-frontend/10-css-multi-column-layout/' },
+						{ label: '11 - transition动画', link: '/web-frontend/11-css-transition/' },
+						{ label: '12 - transform形变', link: '/web-frontend/12-css-transform/' },
+						{ label: '13 - animation动画', link: '/web-frontend/13-css-animation-complex-transitions/' },
+						{ label: '14 - 网页与JavaScript', link: '/web-frontend/14-javascript-and-the-web/' },
+						{ label: '15 - 变量与运算', link: '/web-frontend/15-javascript-variables-and-operators/' },
+						{ label: '16 - 条件与循环', link: '/web-frontend/16-javascript-conditionals-and-loops/' },
+						{ label: '17 - switch语句', link: '/web-frontend/17-javascript-switch/' },
+						{ label: '18 - 函数', link: '/web-frontend/18-javascript-functions/' },
+						{ label: '19 - 数组与对象', link: '/web-frontend/19-javascript-arrays-two-dimensional-arrays-and-objects/' },
+					],
+				},
+				{
 					label: 'Linux',
 					collapsed: true,
 					items: [
