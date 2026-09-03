@@ -111,6 +111,14 @@ export default defineConfig({
 					],
 				},
 				{
+					label: '软件测试学习笔记',
+					collapsed: true,
+					items: [
+						{ label: '总览', link: '/software-testing-study-notes/' },
+						{ label: '01 - 根据需求说明书编写测试用例', link: '/software-testing-study-notes/01-write-test-cases-based-on-the-requirements-specification/' },
+					],
+				},
+				{
 					label: 'Linux',
 					collapsed: true,
 					items: [
