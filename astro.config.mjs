@@ -85,6 +85,14 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
+					label: 'Python 学习笔记',
+					collapsed: true,
+					items: [
+						{ label: '总览', link: '/python-study-notes/' },
+						{ label: '01 - Python及开发环境安装', link: '/python-study-notes/01-python-and-development-environment-installation/' },
+					],
+				},
+				{
 					label: 'Web 前端学习笔记',
 					collapsed: true,
 					items: [
