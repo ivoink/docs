@@ -8,7 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [starlightThemeNova(/* options */), ],
-			title: 'InkNoteWell',
+			title: 'Inkwell Notes',
 			description: 'Notes with Ink',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ivoink/docs', },
